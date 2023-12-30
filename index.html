@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script type="module" src="/@vite/client"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="todo-heading">ToDo List</div>
+
+  <div class="container1">
+    <input id="input" autofocus>
+    <div>
+      <button class="btn" id="addd" onclick="addd()">Add ToDo</button>
+      <button class="btn" onclick="removeall()">Delete all</button>
+    </div>
+  </div>
+
+  <div class="container1" id="todoContainer">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
